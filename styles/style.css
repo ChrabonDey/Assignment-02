@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@font-face {
+    font-family:Programming-hero;
+    src: url(../fonts/Miama.ttf);
+}
+html{
+    background-color: black;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding:0;
+  
+}
+/* styles */
+.body{
+    font-family: "Inter", sans-serif;
+}
+.header{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0.297) 100%);
+}
+.p-style{
+    font-size:0.8rem;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+   
+    
+
+}
+.btn{
+   width:42%;
+    height:10%;
+    padding: 16px 40px 16px 40px;
+    border-radius: 32px;
+    color:white;
+    font-size:1rem;
+    line-height:22px;
+    background: transparent;
+    border:none;
+    background-color:rgb(230, 83, 60);
+}
+.btn-2{
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+}
+/* color section */
+.primary-color{
+    color: rgb(230, 83, 60);
+}
+.bg-color{
+    background-color:rgb(230, 83, 60);
+}
+/* Here is nav-section */
+.nav-bar{
+    max-width: 74%;
+    margin:0 auto;
+    display: flex;
+    padding-top:57px;
+    justify-content: space-between;
+
+}
+.menu-bar{
+    display:none;
+}
+
+.nav-bar ul{
+     display:flex;
+     align-items: center;
+     border: 1px solid rgba(255, 255, 255, 0.1);
+     border-radius: 39px;
+}
+.nav-bar ul li{
+    list-style: none;
+    margin-right:47px;
+
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color:white;
+    font-size:1.2rem;
+    font-weight: 400;
+    line-height: 120%;
+}
+.nav-tittle{
+    font-size:2.5rem;
+    font-weight: 800;
+    line-height: 120%;
+}
+.home{
+    border-radius:46px;
+    padding: 8px 20px;
+    
+}
+/* Here is a banner section */
+.banner{
+   
+    margin:0 auto;
+    margin-top: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:160px;
+    
+}
+/* banner description section */
+.banner-description{
+    width:36%;
+}
+.banner-tittle{
+    font-size:4.9rem;
+    font-weight: 900;
+    line-height: 120%;
+    color:white;
+    margin-bottom:28px;
+}
+#shape{
+    font-family:Programming-hero ;
+    font-weight: 400;
+    font-size: 9.8rem;
+}
+/* banner box section */
+.banner-box{
+    position: relative;
+    
+}
+.box{
+    position: absolute;
+    width:60%;
+    height: 17%;
+    border-radius:12px;
+    color:white;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+   backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    padding:17px 23px 16px 24px;
+    
+}
+.banner-box img{
+    width:100%;
+}
+
+.box-1{
+  top:74%;
+  left:-34%;
+  display: flex;
+  gap:10px;
+  align-items: center;
+}
+.box-2{
+  top:20%;
+  left:60%;
+}
+.box-1 h3{
+    font-size:1.8rem;
+    
+}
+.box-1 p,.box-2 p{
+    font-size:0.8rem;
+    
+}
+.box-2 h1{
+   font-size: 2.5rem;
+}
+
+.icon{
+
+    border-radius:50%;
+    background-color:rgb(230, 83, 60);
+    width:3vw;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+@media screen and (max-width:576px) {
+    .nav-bar ul{
+        display: none;
+    }
+    .menu-bar{
+        display: flex;
+        align-items: center;
+        
+
+    }
+    .nav-bar{
+       width:88%;
+       margin:0 auto;
+    }
+    .banner{
+        flex-direction: column;
+            width:86vw;
+            align-items: flex-start;
+        }
+        
+   .banner-description{
+    width:86vw;
+   }
+    .banner-tittle{
+        font-size: 2.8rem;
+    }
+    #shape{
+        font-size: 4.8rem;
+    }
+    .p-style{
+        font-size: 1rem;
+    }
+    .button{
+        display: flex;
+        gap:10px;
+        width:78.2vw;
+    }
+    .btn{
+        width: 37vw;
+        height: 6vh;
+        padding: 16px 0px 16px 0px;
+    }
+    .club{
+        display: none;
+    }
+   .banner-box{
+    width:78vw;
+   }
+   .box-container{
+    width:30vw;
+   }
+   .box-2{
+    width:42vw;
+    height: 22vw;
+    top:10%;
+    left:57%;
+   }
+   .box-2 p,.box-1 p{
+
+    font-size:9px;
+    
+   }
+   .box-2 h1{
+    font-size:2.1rem;
+   }
+   .box-1{
+    width:40vw;
+    height: 20vw;
+    top:40%;
+    left:10%
+  
+   }
+   .icon{
+
+    border-radius:50%;
+    background-color:rgb(230, 83, 60);
+    width:20vw;
+    height: 30px;
+   
+    
+}
+
+
+  
+    
+}
+
+
+
