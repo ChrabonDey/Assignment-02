@@ -24,9 +24,12 @@ html{
     font-weight: 400;
     line-height: 24px;
     color: rgba(255, 255, 255, 0.5);
-   
-    
-
+}
+.tittle-style{
+    color: rgb(255, 255, 255);
+    font-size:3rem;
+    font-weight: 900;
+    line-height: 120%;
 }
 .btn{
    width:42%;
@@ -138,6 +141,7 @@ html{
 }
 .banner-box img{
     width:100%;
+   min-height: 100%;
 }
 
 .box-1{
@@ -175,7 +179,50 @@ html{
     justify-content: center;
     
 }
+/* Here is Habit section */
+.habit{
+    width:73%;
+    margin:0 auto;
+    text-align: center;
+    margin-top:100px;
+}
+.habit-description{
+    width:64%;
+    margin:0 auto;
+}
+.habit-description h1{
+    margin-bottom:14px;
+}
+.habit-description {
+    margin-bottom:14px;
+}
+.habit-card-container{
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:40px;
+    margin-top:58px;
+}
+.habit-card img{
+   width:100%;
+   border:3px solid rgba(255, 255, 255, 0.1);
+   border-radius: 50%;
+   margin-bottom:30px;
+}
 
+.habit-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.habit-card h4{
+    font-size:1.2rem;
+    font-weight: 600;
+    line-height: 120%;
+    color:white;
+    margin-bottom:6px;
+}
 
 @media screen and (max-width:576px) {
     .nav-bar ul{
@@ -187,7 +234,7 @@ html{
         
 
     }
-    .nav-bar{
+    .nav-bar,.habit{
         width:88%;
        margin:0 auto;
     }
@@ -228,7 +275,9 @@ html{
     }
    .banner-box{
     width:78vw;
+    margin-top:0px;
    }
+   
    .box-container{
     width:30vw;
    }
@@ -244,7 +293,7 @@ html{
     font-size:9px;
     
    }
-   .box-2 h1{
+   .box-2 h1,.habit-description h1{
     font-size:2rem;
    }
    .box-1{
@@ -254,11 +303,17 @@ html{
     left:10%;
     padding:0px 10px;
    }
-
-
   
-    
+   .habit-description {
+    width: 100%;
+}
+.habit-card-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+     
 }
 
 
 
+}
