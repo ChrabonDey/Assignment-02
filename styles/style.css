@@ -17,7 +17,7 @@ html{
     font-family: "Inter", sans-serif;
 }
 .header{
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0.297) 100%);
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
 }
 .p-style{
     font-size:0.8rem;
@@ -32,8 +32,6 @@ html{
     line-height: 120%;
 }
 .btn{
-   width:42%;
-    height:54px;
     padding: 16px 40px 16px 40px;
     border-radius: 32px;
     color:white;
@@ -42,6 +40,7 @@ html{
     background: transparent;
     border:none;
     background-color:rgb(230, 83, 60);
+    cursor: pointer;
 }
 .btn-2{
     background-color: transparent;
@@ -108,10 +107,12 @@ html{
 }
 /* banner description section */
 .banner-description{
-    width:36%;
+    width:40%;
+    margin-top:36px;
+    
 }
 .banner-tittle{
-    font-size:4.9rem;
+    font-size:4rem;
     font-weight: 900;
     line-height: 120%;
     color:white;
@@ -171,7 +172,7 @@ html{
 
     border-radius:50%;
     background-color:rgb(230, 83, 60);
-    width:25%;
+    width:20%;
     height: 50%;
     display: flex;
     flex-direction: column;
@@ -223,6 +224,299 @@ html{
     color:white;
     margin-bottom:6px;
 }
+/* Here is a extra mile section */
+.extra{
+    width:74%;
+    margin:0 auto;
+    display: flex;
+    margin-top:100px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    justify-content: center;
+    
+    
+
+
+}
+.extra-description{
+    width:42%;
+    text-align:left;
+   margin-top:41px;
+   margin-bottom:41px;
+   margin-left:54px;
+}
+.extra-description h1{
+    margin-bottom:14px
+}
+.extra-description p{
+    margin-bottom:34px
+}
+.extra-img{
+    width:35%;
+    height:80%;
+    margin:30px 32px 29px 165px;
+    
+}
+
+.extra-img img{
+    width:100%;
+    border-radius:18px;
+}
+/* Here is a Training section */
+.training{
+    width:73%;
+    margin:0 auto;
+    margin-top:100px;
+}
+.training-description{
+    width:55%;
+    text-align: left;
+}
+.training-description h1{
+    margin-bottom:14px;
+}
+.training-description p{
+    margin-bottom:34px;
+}
+.training-img-container{
+    width:100%;
+   display: grid;
+   grid-template-columns: repeat(12,1fr);
+}
+.content{
+    /* position:relative; */
+    /* height:250px; */
+  min-height:250px;
+}
+.content h5{
+    font-size:1rem;
+    font-weight: 400;
+}
+
+.content img{
+    width:100%;
+    height: 100%;
+}
+.content-1{
+    
+    grid-column: 1/span 3;
+    background-image:linear-gradient(180.00deg,rgba(2, 213, 188, 0.649),rgba(0, 241, 213, 0.26)) ,url("../images/exercise1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.content-2{
+    grid-column:4/span 6;
+    background-image:linear-gradient(180.00deg,rgba(213, 2, 2, 0.555),rgba(241, 40, 0, 0.26)) , url("../images/exercise2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.content-3{
+    grid-column:10/span 4;
+    background-image: linear-gradient(180.00deg,rgba(0, 0, 0, 0.796),rgba(0, 0, 0, 0.105)) ,url("../images/exercise3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content-4{
+    background-image: linear-gradient(180.00deg,rgba(0, 0, 0, 0.796),rgba(0, 0, 0, 0.105)) ,url("../images/exercise4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column:1/span 5;
+}
+.content-5{
+    background-image:linear-gradient(180.00deg,rgba(9, 213, 2, 0.458),rgba(0, 241, 56, 0.26)) ,url("../images/exercise5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column:6/span 3;
+}
+.content-6{
+    background-image:linear-gradient(180.00deg,rgba(2, 48, 213, 0.478),rgba(0, 12, 241, 0.26)) , url("../images/exercise6.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column:9/span 4;
+}
+
+.content-1 h5,.content-3 h5 , .content-5 h5{
+ color:white;
+ margin-top:40%;
+ margin-left:5%;
+}
+.content-1 h5{
+    color:black;
+  }
+
+.content-6 h5{
+    color:white;
+    margin-top:35%;
+    margin-left:10%
+}
+.content-2 h5{
+    color:white;
+    margin-top:8%;
+    margin-left:20%
+}
+.content-4 h5{
+    color:white;
+    margin-top:8%;
+    margin-left:50%;
+}
+/* Here is team section */
+.team{
+    width:73%;
+    margin:0 auto;
+    margin-top:100px;
+}
+.team-description{
+        width:55%;
+        margin:0 auto;
+        text-align:center;
+}
+.team-description h1{
+    margin-bottom:14px;
+}
+.team-description p{
+    margin-bottom:34px;
+}
+.team-card-container{
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+    background: rgb(34, 34, 34);
+    border-radius: 18px;
+    padding:30px;
+}
+.team-card{
+    border-radius: 18px;
+    
+}
+.team-card img{
+    width:100%;
+    height: 100%;
+}
+.card-1{
+    background-image: url("../images/trainer1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.card-2{
+    background-image: url("../images/trainer2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.card-3{
+    background-image: url("../images/trainer3.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.card-4{
+    background-image: url("../images/trainer4.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.card-5{
+    background-image: url("../images/trainer5.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.card-6{
+    background-image: url("../images/trainer6.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.team-card h4{
+    color:white;
+    font-size:1.5rem;
+    font-weight: 700;
+}
+.card-text{
+    margin-top:80%;
+    margin-left:5%; 
+}
+
+/* Here is a footer section */
+.footer{
+    margin:0 auto;
+    margin-top: 100px;
+    padding:34px 160px;
+    background: rgb(34, 34, 34);
+}
+.footer-content{
+    display:flex;
+    justify-content: space-between;
+    
+}
+.footer-description{
+    width:40%;
+}
+.list-1 ul li{
+    list-style:none;
+    margin-bottom:20px;
+}
+.list-2 ul li{
+    list-style: none;
+    margin-bottom:20px;
+}
+.list-1 ul li a{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.5);
+    font-size:1.5rem;
+    font-weight: 400;
+    
+}
+.list-2 ul li a{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.5);
+    font-size:1.5rem;
+    font-weight: 400;
+   
+}
+.tittle{
+    color:white;
+    font-size:2rem;
+    font-weight: 600;
+    
+}
+.footer-description h1{
+    font-size:4rem;
+    margin-bottom:16px;
+
+}
+.conclusion{
+    color:rgba(255, 255, 255, 0.5);
+    font-size:1.5rem;
+    font-weight: 300;
+     margin:0 auto;
+     display:flex;
+     justify-content: center;
+}
+hr {
+    border: 2px solid rgba(255, 255, 255, 0.158);
+
+   
+}
+/* Here is a media section (max-width:576px) */
 
 @media screen and (max-width:576px) {
     .nav-bar ul{
@@ -240,12 +534,13 @@ html{
     }
     .banner{
         flex-direction: column;
-            width:86vw;
+            width:88%;
             align-items: flex-start;
         }
         
    .banner-description{
-    width:86vw;
+    width:90%;
+    margin-top:0px;
    }
     .banner-tittle{
         font-size: 2.8rem;
@@ -274,7 +569,7 @@ html{
         display: none;
     }
    .banner-box{
-    width:78vw;
+    width:80%;
     margin-top:0px;
    }
    
@@ -294,7 +589,8 @@ html{
     
    }
    .box-2 h1,.habit-description h1{
-    font-size:2rem;
+    font-size:1.8rem;
+    width:100%;
    }
    .box-1{
     width:40vw;
@@ -304,8 +600,9 @@ html{
     padding:0px 10px;
    }
   
-   .habit-description {
+ .habit-description {
     width: 100%;
+   margin:0 auto;
 }
 .habit-card-container {
     width: 100%;
@@ -313,7 +610,130 @@ html{
     grid-template-columns: repeat(1, 1fr);
      
 }
+.extra-img img{
+    width:100%;
+    height: 100%;
+}
+.tittle-style {
+    font-size: 2rem;
+     width: 69%;
+}
+.extra-description{
+    width:80%;
+    margin:0 auto;
+    margin-top:41px;
+    margin-bottom:41px;
+    
+}
+.extra,.training,.team {
+    width: 88%;
+    margin: 0 auto;
+    flex-direction: column;
+    margin-top:50px;
+}
 
+.btn {
+    width: 100%;
+    
+}
+.extra-img {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom:30px; 
+}
+.training-description,.team-description{
+    width:100%;
+}
+.training-img-container{
+    width:100%;
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+}
+.content{
+    height:100%;
+
+}
+.content h5{
+    font-size:0.8rem;
+    
+}
+.content-1{
+    
+    grid-column: 1/span 2;
+}
+.content-1 h5{
+    color:white;
+    margin-bottom: 12%;
+}
+.content-4 h5{
+    margin-left: 10%;
+    margin-top: 63%;
+}
+.content h5 {
+    margin-bottom: 12%;
+}
+.press{
+    display: none;
+}
+
+.content-2{
+    grid-column: 3/span 2;
+}
+.content-4{
+    grid-column: 1/span 2;
+}
+.content-5{
+    grid-column: 3/span 2;
+}
+.content-3,.content-6{
+    display: none;
+}
+.team-card-container{
+    grid-template-columns: repeat(1,1fr);
+}
+.team-card {
+    height: 100%;
+    border-radius: 18px;
+}
+.team-description h1{
+    margin:0 auto;
+    width: 100%;
+}
+.footer-content {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 18px;
+}
+.footer-description h1 {
+    font-size: 3.5rem;
+    margin-bottom: 16px;
+}
+.footer{
+    padding:0px;
+    margin-top:34px;
+}
+
+.footer-description {
+    margin-bottom: 50px;
+    width: 90%;
+}
+hr {
+    border: 1px solid gray;
+    width: 90%;
+    margin:0 auto;
+   
+}
+.conclusion {
+    width:100%;
+    font-size: 1rem;
+    font-weight: 200;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
 
 
 }
+
+
