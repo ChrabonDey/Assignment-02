@@ -911,6 +911,7 @@ hr {
 .box-w p , .box-w h1 {
    
     padding: 20px;
+    width:100%;
 }
 .box-w {
     width:100%;
