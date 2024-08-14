@@ -262,7 +262,7 @@ html{
 }
 
 .extra-img img {
-    height: 94vh;
+    height: 392px;
     object-position: 66% 30%;
     object-fit: none;
     width: 100%;
@@ -499,7 +499,6 @@ input{
     position: relative;
     width:30%;
     height: 500px;
-    border:1px solid red;
     border-radius: 47% 53% 54% 46% / 23% 23% 77% 77%  ;
     background-color:rgb(230, 83, 60); 
     animation: aniy-2 2s linear 1s infinite alternate ;
