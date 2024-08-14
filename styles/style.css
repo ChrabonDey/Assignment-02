@@ -700,6 +700,9 @@ hr {
         width:88%;
        margin:0 auto;
     }
+    .icon{
+        width:28%;
+    }
     .banner{
         flex-direction: column;
             width:88%;
